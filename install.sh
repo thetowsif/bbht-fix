@@ -90,9 +90,11 @@ cd ~/tools/
 echo "done"
 
 echo "installing Sublist3r"
-git clone https://github.com/aboul3la/Sublist3r.git
+git clone https://github.com/thetowsif/Sublist3r.git
 cd Sublist3r*
+python3 -m venv venv; source venv/bin/activate;
 pip install -r requirements.txt
+deactivate
 cd ~/tools/
 echo "done"
 
